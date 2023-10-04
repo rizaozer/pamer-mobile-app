@@ -1,0 +1,24 @@
+{
+    "files.exclude": {
+        "**/.dart_tool": true,
+        "**/.packages": true,
+        "**/.idea": true,
+        "**/.metadata": true,
+        "android": true,
+        "build": true,
+        "ios": true,
+        "pubspec.lock": true,
+        "dev.pap.playground.iml": true,
+        "README.md": true,
+        "**/*.config.dart": true,
+        "**/*.g.dart": true,
+        "**/.flutter-plugins*": true,
+        "debug.log": true,
+        "web" : true,
+        "new_app.iml" : true,
+        "windows" : true
+    },
+    "cSpell.words": [
+        "cupertino"
+    ]
+}
