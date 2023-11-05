@@ -49,6 +49,8 @@ class _HomeState extends State<Home> {
                               Get.toNamed('/settings');
                             },
                             icon: const Icon(Icons.more_vert_outlined))
+                            },
+                            icon: const Icon(Icons.more_vert_outlined))
                       ],
                     ),
                   ),
@@ -87,12 +89,11 @@ class _HomeState extends State<Home> {
             ),
           ),
           SizedBox(
-            height: Get.height * .01,
+            height: Get.height * .08,
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: Container(
-              width: Get.width,
               height: Get.height / 1.7,
               decoration: const BoxDecoration(
                 color: Colors.white,
@@ -100,7 +101,7 @@ class _HomeState extends State<Home> {
               child: SingleChildScrollView(
                 scrollDirection: Axis.vertical,
                 child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20),
+                  padding: const EdgeInsets.symmetric(horizontal: 22),
                   child: Column(
                     children: [
                       const Text(
